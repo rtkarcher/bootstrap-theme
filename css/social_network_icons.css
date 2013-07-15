@@ -1,0 +1,80 @@
+/**************************
+	Stuff
+**************************/
+img.sn_icon {
+	float:right;
+	display:block;
+	margin-right:5px;
+	margin-top:-20px;
+}
+
+img.opacity {
+	opacity: 0.75;
+	filter: alpha(opacity=50);
+	}	
+	
+img.opacity:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	}
+
+img.opacity_g {
+	opacity: 0.75;
+	filter: alpha(opacity=50);
+	}	
+	
+img.opacity_g:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: url('github_square_blue_32x32.png');
+	}
+
+img.opacity_fade {
+	display: block;
+/*	opacity: 0.5;	*/
+	filter: alpha(opacity=50);
+	-moz-transition: opacity .3s linear;
+	-webkit-transition: opacity .3s linear;
+	-ms-transition: opacity .3s linear;
+	-o-transition: opacity .3s linear;
+	transition: opacity .3s linear;
+	}	
+	
+img.opacity_fade:hover {
+	opacity: 0.5;
+	cursor: pointer;
+	}
+
+div.tintwrap {
+    overflow: hidden;
+    width: 840px;
+    margin: auto;
+}
+
+div.tint {
+	overflow: hidden;
+	float: left;
+	background:red;
+	margin: 0 20px 20px 0;
+}
+
+.t2 {
+    background: red;
+  }
+  
+.t3 {
+    background: green;
+  }
+  
+.t4 {
+    background: purple;
+  }
+  
+.t5 {
+    background: yellow;
+  }
+  
+.t6 {
+    background: hotpink;
+  }
+
