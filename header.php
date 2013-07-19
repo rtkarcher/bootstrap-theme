@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/jumbotron_green.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+  	<link rel="stylesheet" href="css/bootstrap.css">
     	<link rel="stylesheet" href="css/bootstrap-responsive.css">
 
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -107,7 +108,7 @@
       </div>
     </header> <!-- End Jumbotron Subhead -->
 
-    <div id="modal" class="modal hide"> <!-- Begin Contact Form Modal Window Actions -->
+    <div id="modal" class="modal hide" style="margin-top:2%;"> <!-- Begin Contact Form Modal Window Actions -->
 	<div class="modal-header">
 	  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 	  <h3>What's on your mind?</h3>
@@ -176,7 +177,6 @@
                                   </div>
                               </div>
                         </div>
-
                     </div>
 
                     <script type="text/javascript"

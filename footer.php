@@ -31,7 +31,7 @@
           <div class="span3">
             <h3><span class="icon-envelope-alt"></span> Contact</h3>
             <ul class="icons unstyled">
-              <li><i class="icon-link"></i> Blog: <a target="_blank" href="#"> Coming soon</a></li>
+              <li> <i class="icon-link"></i> Blog: <a target="_blank" href="#"> Coming soon</a></li>
               <li><i class="icon-google-plus"></i> Google+: <a target="_blank" href="http://gplus.to/rkarcher"> Profile</a></li>
               <li><i class="icon-github"></i> Github: <a target="_blank" href="http://github.com/rtkarcher"> Projects</a></li>
               <li><i class="icon-linkedin"></i> LinkedIn: <a target="_blank" href="http://linkedin.com/li/rtkarcher"> Profile</a></li>

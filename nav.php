@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/jumbotron_green.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+  	<link rel="stylesheet" href="css/bootstrap.css">
     	<link rel="stylesheet" href="css/bootstrap-responsive.css">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 <!--	<link rel="stylesheet" href="http://rainerkarcher.com/bootstrap/css/font-awesome.min.css"> -->
@@ -87,150 +88,82 @@
 
     <header class="jumbotron subhead" id="overview"> <!-- Begin Jumbotron Subhead -->
       <div class="container">
-
-
-
 	<a href="index.php" style="color:#fff; text-decoration:none;">
 	  <h1>Rainer Karcher</h1>
 	  <p class="lead">Web Developer & Linux Systems Administrator</p>
 	</a>
-
-
-      </div>
+      </div> <!-- End div.container -->
     </header> <!-- End Jumbotron Subhead -->
 
     <div id="modal" class="modal hide"> <!-- Begin Contact Form Modal Window Actions -->
       <div class="modal-header" style="text-align:center;">  
       </div>      
       <div class="modal-body">  
+	    <form>
+	    <fieldset>
+	    <legend>What's on your mind?</legend>
+	    <label>Label name</label>
+	    <input type="text" placeholder="Type something…">
+	    <span class="help-block">Example block-level help text here.</span>
+	    <label class="checkbox">
+	    <input type="checkbox"> Check me out
+	    </label>
+	    <button type="submit" class="btn">Submit</button>
+	    </fieldset>
+	    </form>
+	    </div>  
+	</div> <!-- End div.modal-body -->
 
-
-    <form>
-    <fieldset>
-    <legend>What's on your mind?</legend>
-    <label>Label name</label>
-    <input type="text" placeholder="Type something…">
-    <span class="help-block">Example block-level help text here.</span>
-    <label class="checkbox">
-    <input type="checkbox"> Check me out
-    </label>
-    <button type="submit" class="btn">Submit</button>
-    </fieldset>
-    </form>
-
-
-
-<!--
-	<form class="form-horizontal email" action="email.php" method="post"> <!-- Begin Contact Form --> 
-<!--
-	  <div class="control-group">
-	    <label class="control-label" for="inputName">Name :</label>
-	    <div class="controls">
-	      <input type="text" placeholder="Your name" name="name">
-	    </div>
-	  </div>
-	  <div class="control-group">
-	    <label class="control-label" for="inputEmail">Email :</label>
-	    <div class="controls">
-	      <input type="text" id="inputEmail" placeholder="Your email address" name="email">
-	    </div>
-	  </div>
-	  <div class="control-group">
-	    <label class="control-label" for="inputSubject">Subject :</label>
-	    <div class="controls">
-	      <input type="text" placeholder="Subject" name="subject">
-	    </div>
-	  </div>
-	  <div class="control-group">
-	    <label class="control-label" for="inputMessage">Message :</label>
-	    <div class="controls">
-	      <textarea rows="8" name="message"></textarea>
-	    </div>
-	  </div>
-
-	 <script type="text/javascript">
-	     var RecaptchaOptions = {
-	        theme : 'custom',
-	        custom_theme_widget: 'recaptcha_widget'
-	     };
-	 </script>               
-         <script type="text/javascript">
-             var RecaptchaOptions = {
-                 theme : 'custom',
-                 custom_theme_widget: 'recaptcha_widget'
-             };
-	 </script>
-	 <div id="recaptcha_widget" style="display:none">
-
-                        <div class="control-group">
-                            <label class="control-label">reCAPTCHA</label>
-                            <div class="controls">
-                                <a id="recaptcha_image" href="#" class="thumbnail"></a>
-                                <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
-                            </div>
-                        </div>
-
-                           <div class="control-group">
-                               <label class="recaptcha_only_if_image control-label">Enter the words above:</label>
-                              <label class="recaptcha_only_if_audio control-label">Enter the numbers you hear:</label>
-
-                              <div class="controls">
-                                  <div class="input-append">
-                                      <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" class="input-recaptcha" />
-                                      <a class="btn" href="javascript:Recaptcha.reload()"><i class="icon-refresh"></i></a>
-                                      <a class="btn recaptcha_only_if_image" href="javascript:Recaptcha.switch_type('audio')"><i title="Get an audio CAPTCHA" class="icon-headphones"></i></a>
-                                      <a class="btn recaptcha_only_if_audio" href="javascript:Recaptcha.switch_type('image')"><i title="Get an image CAPTCHA" class="icon-picture"></i></a>
-                                    <a class="btn" href="javascript:Recaptcha.showhelp()"><i class="icon-question-sign"></i></a>
-                                  </div>
-                              </div>
-                        </div>
-
-                    </div>
-
-                    <script type="text/javascript"
-                       src="<?php echo $recaptcha_url; ?>">
-                    </script>
-
-                    <noscript>
-                        <iframe src="<?php echo $recaptcha_noscript_url; ?>"
-                           height="300" width="500" frameborder="0"></iframe><br>
-                        <textarea name="recaptcha_challenge_field" rows="3" cols="40">
-                        </textarea>
-                        <input type="hidden" name="recaptcha_response_field"
-                           value="manual_challenge">
-                      </noscript>
-
-<script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LcrK9cSAAAAALEcjG9gTRPbeA0yAVsKd8sBpFpR"></script>
-
-<noscript>
-    <iframe src="<?php echo $recaptcha_noscript_url; ?>"
-       height="300" width="500" frameborder="0"></iframe><br>
-    <textarea name="recaptcha_challenge_field" rows="3" cols="40">
-    </textarea>
-    <input type="hidden" name="recaptcha_response_field" value="manual_challenge">
-</noscript>
-
-
-  <div class="control-group">
-    <div class="controls">
-      <button type="submit" class="btn">Send  <i class="icon-white icon-chevron-right"></i></button>
+<div class="container">
+	<!--  Carousel - consult the Twitter Bootstrap docs at
+      http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+  <div class="carousel-inner">
+    <div class="item active"><!-- class of active since it's the first item -->
+      <img src="http://rainerkarcher.com/bootstrap/img/uploads/work/phycolab_1200x480.jpg" alt="" />
+      <div class="carousel-caption">
+	 <h4>Phycology Laboratory</h4>
+	 <p>University of Alabama<br />
+	 <a href="#" target="_blank">http://phycolab.ua.edu</a></p>
+      </div>
     </div>
-  </div>
-  <p style="float:right;"><small>Credit to <a href="http://kippt.com/jasondavis" target="_blank">Jason Davis</a> for <a href="http://kippt.com/jasondavis/twitter-bootstrap/clips/10194153" target="_blank">Bootstrap Captcha</a></small></p>
-</form>
-
--->
-
-    </div>  
-</div>
-
-    <div class="container">
-      <h1>About</h1>
-      <p>I am a Linux systems administrator and full-stack web developer based in Tuscaloosa, AL, and I create professional and responsive websites and web applications using the latest in W3C and SEO web standards.</p>
-      <p>My weapons of choice in website development are WordPress and Bootstrap (my development capabilities and resume can be found in <a href="http://zerply.com/quizas/work">greater detail here</a>) and I'm currently learning Ruby and dusting off Python to bolster my skills as an application developer.</p>
-      <p>When I'm not writing code or pushing pixels, I enjoy playing drums, trying out new Linux distros, studying Chinese literature, and reading up on the latest research in neuroscience and biomedical engineering<!--, and constructing multi-story rabbit condominiums for my pet rabbit, Maddie.--></p>
-      <h5><a href="http://rainerkarcher.com/bootstrap/img/uploads/Resume_2013.pdf" target="_blank"><img src="http://rainerkarcher.com/bootstrap/img/uploads/pdf.png">Resume (Print-friendly PDF)</a></h5>
-    </div> <!-- End div.container -->
+    <div class="item">
+      <img src="http://rainerkarcher.com/bootstrap/img/uploads/work/theatre_1200x480.jpg" alt="" />
+      <div class="carousel-caption">
+	 <h4>Department of Theatre & Dance</h4>
+	 <p>University of Alabama<br />
+	 <a href="http://www.theatre.ua.edu" target="_blank">http://www.theatre.ua.edu</a></p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://rainerkarcher.com/bootstrap/img/uploads/work/mint_1200x480.jpg" alt="" />
+      <div class="carousel-caption">
+	 <h4>Center for Materials for Information Technology</h4>
+	 <p>University of Alabama<br />
+	 <a href="http://www.mint.ua.edu" target="_blank">http://www.mint.ua.edu</a></p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://rainerkarcher.com/bootstrap/img/uploads/work/etech_dashboard_1200x480.jpg" alt="" />
+      <div class="carousel-caption">
+	 <h4>Office of Educational Technology WordPress Plugin</h4>
+	 <p>University of Alabama<br />
+	 GitHub Project: <a href="http://www.theatre.ua.edu" target="_blank">http://github.com/rtkarcher</a></p>
+      </div>
+    </div>
+  </div><!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
+</div> <!-- End div.container -->
 
 <br /><br /><br /><br />
 
@@ -275,26 +208,13 @@
         </div>
   </div>
 </footer>
-
-
-<!--
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-          <div class="span3">
-            <h3><span class="icon-white icon-envelope"></span> Contact</h3>
-            <ul class="icons">
-              <li><i class="icon_link"></i> Blog: <a class="targetblank" href="#">Coming soon!</a></li>
-              <li><i class="icon_google-plus"></i> Google+: <a class="targetblank" href="http://gplus.to/rkarcher">Rainer Karcher</a></li>
-              <li><i class="icon_github"></i> Github: <a class="targetblank" href="http://github.com/rtkarcher">Projects</a></li>
-              <li><i class="icon_linkedin"></i> LinkedIn: <a class="targetblank" href="http://linkedin.com/li/rtkarcher">Profile</a></li>
-            </ul>
-          </div>
-          </div>
-        </div>
-    </div>
-</footer>
--->
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 3000
+    });
+  });
+</script>
 
     <script src="/bootstrap/js/bootstrap.js"></script>
  </body>

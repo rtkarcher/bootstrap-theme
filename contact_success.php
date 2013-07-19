@@ -1,4 +1,4 @@
-<?php header('Refresh: 5;url=index.php'); ?>
+<?php header('Refresh: 2;url=index.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
