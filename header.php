@@ -108,22 +108,18 @@
     </header> <!-- End Jumbotron Subhead -->
 
     <div id="modal" class="modal hide"> <!-- Begin Contact Form Modal Window Actions -->
-<!--
-      <div class="modal-header" style="text-align:center;">  
-        <h2>Nice to meet you</h2>
-	<h5>What's on your mind?</h3>
-      </div>      
--->
-      <div class="modal-body">
-	<form class="form-horizontal email" action="email.php" method="post"> <!-- Begin Contact Form -->
-<a class="close" href="#">&times;</a>
-	  <fieldset>
-	  <legend><strong>What's on your mind?</strong></legend>
-	  <div class="control-group">
-	    <label class="control-label" for="inputName">Name :</label>
-	    <div class="controls">
-	      <input type="text" placeholder="Your name" name="name">
-	    </div>
+	<div class="modal-header">
+	  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	  <h3>What's on your mind?</h3>
+</div>
+	  <div class="modal-body">
+	  <form class="form-horizontal email" action="email.php" method="post"> <!-- Begin Contact Form -->
+	    <fieldset>
+	    <div class="control-group">
+	      <label class="control-label" for="inputName">Name :</label>
+	      <div class="controls">
+	        <input type="text" placeholder="Your name" name="name">
+	      </div>
 	  </div>
 	  <div class="control-group">
 	    <label class="control-label" for="inputEmail">Email :</label>
