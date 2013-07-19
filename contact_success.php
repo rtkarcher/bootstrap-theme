@@ -42,10 +42,9 @@
     </div>      
     <div class="modal-body">  
 	<br />
-        <p style="text-align:center;">Great Success!</p>  
-	<br /><br /><br />
-	<p class="pull-center"><i class="icon-refresh icon-spin"></i> Redirecting</p>
-
+        <p style="text-align:center;">Thanks!</p>  
+	<br /><br />
+	<p class="pull-right"><i class="icon-refresh icon-spin icon-2x"></i> Redirecting</p>
 <!--
 	<p style="text-align:center;"><small>Click <a href="contact.php">here</a> if you aren't taken back in  <span id="timer"></span></small></p>
 -->
