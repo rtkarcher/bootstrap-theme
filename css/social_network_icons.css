@@ -2,10 +2,9 @@
 	Stuff
 **************************/
 img.sn_icon {
-	float:right;
+	float:left;
 	display:block;
-	margin-right:5px;
-	margin-top:-20px;
+	margin: 5px 5px 0 0;
 }
 
 img.opacity {

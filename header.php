@@ -7,16 +7,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 	<script src="/bootstrap/js/jquery-1.10.2.min.js"></script>
-
-	<link rel="icon" type="image/ico" href="http://rainerkarcher.com/sandbox/icons/images/panda_16x16.png"/>
+	<link rel="icon" type="image/ico" href="http://rainerkarcher.com/bootstrap/img/leaf_wormhole.png"/>
+<!--	<link rel="icon" type="image/ico" href="http://rainerkarcher.com/sandbox/icons/images/panda_16x16.png"/> -->
         <link rel="stylesheet" href="css/social_network_icons.css">
-
         <link rel="stylesheet" href="css/amazonian.css">
 	<link rel="stylesheet" href="css/jumbotron_green.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
     	<link rel="stylesheet" href="css/bootstrap-responsive.css">
-<!--	<link rel="stylesheet" href="http://rainerkarcher.com/bootstrap/css/font-awesome.min.css"> -->
+
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
@@ -41,32 +42,42 @@
           </button>
           <a class="brand" href="#"></a>
           <div class="nav-collapse collapse">
-	    <a href="#modal" role="button" class="btn btn-success btn-small" data-toggle="modal" style="color:#fff; float:right; display:block;"><i class="icon-white icon-envelope"></i> Contact Me
+	    <a href="#modal" role="button" class="btn btn-success btn-small" data-toggle="modal" style="color:#fff; float:right; display:block;"><i <!-- class="icon-white icon-envelope-alt"></i>  Contact Me
 	    </a> <!-- Contact Form Modal Button -->
+
+<!--
+	    <div id="social-network-icons" style="float:left;">
+	      <a href="http://plus.google.com/103939828120422195932/posts" target="_blank"><img src="http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_google_plus.png" alt="gplus" class="opacity sn_icon" /></a>
+	      <a href="http://github.com/rtkarcher/" target="_blank"><img src="http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_github_black_rev.png" alt="github" class="opacity_g sn_icon" onmouseover="this.src='http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_github_blue_rev.png'" onmouseout="this.src='http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_github_black_rev.png'" /></a>
+  	      <a href="http://linkedin.com/in/rtkarcher/" target="_blank"><img src="http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_linkedin.png" alt="linkedin" class="opacity sn_icon" /></a>
+	  </div>--> <!-- End div.social-network-icons --> <!--
+-->
+
             <ul class="nav" style="float:right;"> <!-- Begin Top Navigation Links -->
-              <li class="active"><a href="index.php">Home</a></li>
+              <!-- <li class="active">-->
+	      <li><a href="index.php">Home</a></li>
               <li><a href="about.php">About</a></li>
-              <li><a href="http://zerply.com/quizas">Resume</a></li>
+              <li><a href="http://zerply.com/quizas" target="_blank">Resume</a></li>
 	      <li class="dropdown">
-		  <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Projects<b class="caret"></b></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Work <b class="caret"></b></a>
                   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                    <li><a href="#">Portfolio Overview</a></li>
                     <li class="nav-header">Past Work</li>
-                    <li><a href="#">Under Construction</a></li>
-                    <li class="divider"></li>
+                    <li><a href="portfolio.php">Portfolio Overview</a></li>
                     <li class="nav-header">Current Projects</li>
+                    <li><a href="projects.php">Current Projects</a></li>
+                    <li class="divider"></li>
                     <li><a href="#">Under Construction</a></li>
                   </ul>
                </li>
 	      <li class="dropdown">
-		  <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Language<b class="caret"></b></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Language <b class="caret"></b></a>
                   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
                     <li><a href="index.php"><img src="http://rainerkarcher.com/sandbox/icons/images/usa_32x32.png"></i>  English / 英语</a></li>
                     <li><a href="zh/index_zh.php"><img src="http://rainerkarcher.com/sandbox/icons/images/china_32x32.png"></i>  Chinese / 中文</a></li>
                   </ul>
                </li>
 	       <li>
-		<form id="custom-search-form" class="form-search form-horizontal">
+		<form id="custom-search-form" class="form-search form-inline">
 	          <div class="input-append span3">
 	            <input type="text" class="search-query" placeholder="Search">
 	            <button type="submit" class="btn"><i class="icon-search"></i></button>
@@ -82,29 +93,32 @@
     <header class="jumbotron subhead" id="overview"> <!-- Begin Jumbotron Subhead -->
       <div class="container">
 
-	    <div id="social-network-icons">
-	      <a href="http://plus.google.com/103939828120422195932/posts" target="_blank"><img src="http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_google_plus.png" alt="gplus" class="opacity sn_icon" /></a>
-	      <a href="http://github.com/rtkarcher/" target="_blank"><img src="http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_github_black_rev.png" alt="github" class="opacity_g sn_icon" onmouseover="this.src='http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_github_blue_rev.png'" onmouseout="this.src='http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_github_black_rev.png'" /></a>
-  	      <a href="http://linkedin.com/in/rtkarcher/" target="_blank"><img src="http://rainerkarcher.com/sandbox/icons/images/softsquare_32x32_linkedin.png" alt="linkedin" class="opacity sn_icon" /></a>
-
-	  </div> <!-- End div.social-network-icons -->
-
 	<a href="index.php" style="color:#fff; text-decoration:none;">
 	  <h1>Rainer Karcher</h1>
 	  <p class="lead">Web Developer & Linux Systems Administrator</p>
 	</a>
-
-
+	<div class="container">
+	  <ul class="unstyled">
+	    <li><a href="http://github.com/rtkarcher" target="_blank" style="color:#fff; text-decoration:none; padding-left:8px;" class="pull-right"><i class="icon-github-sign icon-3x"></i></a></li>
+	    <li><a href="http://plus.google.com/103939828120422195932/posts" target="_blank" style="color:#fff; text-decoration:none; padding-left:8px;" class="pull-right"><i class="icon-google-plus-sign icon-3x"></i></a></li>
+	    <li><a href="http://linkedin.com/in/rtkarcher" target="_blank" style="color:#fff; text-decoration:none; padding-left:8px;" class="pull-right"><i class="icon-linkedin-sign icon-3x"></i></a></li>
+	  </ul>
+	</div> <!-- End .container -->
       </div>
     </header> <!-- End Jumbotron Subhead -->
 
     <div id="modal" class="modal hide"> <!-- Begin Contact Form Modal Window Actions -->
+<!--
       <div class="modal-header" style="text-align:center;">  
-        <h2>Nice to meet you!</h2>
+        <h2>Nice to meet you</h2>
 	<h5>What's on your mind?</h3>
       </div>      
-      <div class="modal-body">  
+-->
+      <div class="modal-body">
 	<form class="form-horizontal email" action="email.php" method="post"> <!-- Begin Contact Form -->
+<a class="close" href="#">&times;</a>
+	  <fieldset>
+	  <legend><strong>What's on your mind?</strong></legend>
 	  <div class="control-group">
 	    <label class="control-label" for="inputName">Name :</label>
 	    <div class="controls">
@@ -195,10 +209,11 @@
 
   <div class="control-group">
     <div class="controls">
-      <button type="submit" class="btn">Send  <i class="icon-white icon-chevron-right"></i></button>
+      <button type="submit" class="btn btn-success">Send  <i class="icon-white icon-chevron-right"></i></button>
     </div>
   </div>
   <p style="float:right;"><small>Credit to <a href="http://kippt.com/jasondavis" target="_blank">Jason Davis</a> for <a href="http://kippt.com/jasondavis/twitter-bootstrap/clips/10194153" target="_blank">Bootstrap Captcha</a></small></p>
+	  </fieldset>
 </form>
     </div>  
 </div>

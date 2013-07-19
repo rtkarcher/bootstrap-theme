@@ -93,12 +93,14 @@
     right: 0;
     bottom: 0;
     left: 0;
-/*    background: url(http://addyosmani.github.io/jquery-ui-bootstrap/assets/img/bs-docs-masthead-pattern.png) repeat center center;
-*/
+    background: url(http://addyosmani.github.io/jquery-ui-bootstrap/assets/img/bs-docs-masthead-pattern.png) repeat center center;
+    opacity: .4;
+
 /*    background: url('http://rainerkarcher.com/sandbox/textures/diagmonds/diagmonds.png') repeat center center;
     opacity: .4;	*/
-    background: url('http://rainerkarcher.com/sandbox/textures/dark_mosaic/dark_mosaic.png') repeat center center;
-    opacity: .5;
+/*    background: url('http://rainerkarcher.com/sandbox/textures/dark_mosaic/dark_mosaic.png') repeat center center;
+    opacity: .4;
+*/
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),

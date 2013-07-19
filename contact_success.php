@@ -1,6 +1,5 @@
 <?php header('Refresh: 5;url=index.php'); ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,18 +9,20 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 	<script src="/bootstrap/js/jquery-1.10.2.min.js"></script>
+	<link rel="icon" type="image/ico" href="http://rainerkarcher.com/bootstrap/img/leaf_wormhole.png"/>
+        <link rel="stylesheet" href="css/social_network_icons.css">
         <link rel="stylesheet" href="css/amazonian.css">
+	<link rel="stylesheet" href="css/jumbotron_green.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-<!--    <link rel="stylesheet" href="css/bootstrap.css"> -->
     	<link rel="stylesheet" href="css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="http://addyosmani.github.io/jquery-ui-bootstrap/assets/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/jumbotron_fancy.css">
+
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
-
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -43,7 +44,11 @@
 	<br />
         <p style="text-align:center;">Great Success!</p>  
 	<br /><br /><br />
+	<p class="pull-center"><i class="icon-refresh icon-spin"></i> Redirecting</p>
+
+<!--
 	<p style="text-align:center;"><small>Click <a href="contact.php">here</a> if you aren't taken back in  <span id="timer"></span></small></p>
+-->
 	<br /><br />
     </div>  
 </div>  
